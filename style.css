@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+body {
+    font-family: "Poppins" !important;
+}
+
+.h-slider {
+    font-size: 70px !important;
+    font-weight: 900 !important;
+}
+
+h1 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+h3 {
+    font-size: 26px !important;
+    font-weight: 500 !important;
+}
+
+h4 {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.top-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #868686;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0) !important;
+    padding-right: 0px !important;
+    padding-left: 16px !important;
+}
+
+.navbar a:hover {
+    color: rgb(104, 104, 104) !important;
+}
+
+img {
+    width: 100% !important;
+}
+
+.slide1 {
+    position: relative;
+}
+
+.d-md-block {
+    background-color: rgba(0, 0, 0, 0.459) !important;
+    border-radius: 20px !important;
+}
+
+.carousel-control-prev {
+    background-color: transparent; /* Usuń tło z przycisku */
+    border: none; /* Usuń obramowanie z przycisku */
+}
+
+.carousel-control-prev-icon {
+    background-color: black !important;
+    padding: 20px; /* Zmniejsz rozmiar strzałki */
+    height: 40px; /* Ustal wysokość strzałki */
+    width: 40px; /* Ustal szerokość strzałki */
+}
+
+/* Analogicznie dla strzałki "Next" */
+.carousel-control-next {
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-control-next-icon {
+    background-color: black !important;
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+#about {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: rgb(235, 235, 235);
+}
+
+#about h1 {
+    padding-bottom: 20px;
+}
+
+/* animacja */
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+#box-offer {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#box-offer h2 {
+    margin: 15px 0 5px 0;
+}
+
+#box-offer p {
+    margin: 10px;
+}
+
+button {
+    padding: 7px 20px 7px 20px;
+    background-color: rgb(18, 122, 27);
+    color: white;
+    border-radius: 20px !important;
+    border: 0px;
+    margin: 5px;
+}
+
+#parallax {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.568)), url(../Monstera/img/paralax.jpg);
+    min-height:100%;
+    background-size:cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+#parallax h1 {
+    margin-top: 250px !important;
+    margin-bottom: auto !important;
+    text-align: center;
+    color: #ffffff;
+}
+
+#parallax button {
+    margin:10px;
+}
+
+#footer {
+    height: 300px;
+    background-color: black;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.paragraphs-container {
+    display: flex; /* Ustawienie elementów w linii */
+    flex-wrap: wrap; /* Zawijanie na nową linię, jeśli przekroczy szerokość kontenera */
+    margin-top: 10px;
+}
+
+
+#footer p {
+    margin-right: 20px;
+}
+
+#footer h2 {
+    margin-top: 15px;
+}
+
+.to-right {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+#banner-page {
+    background-color: #0a4117;
+    height: 300px;
+}
+
+#breadcrums {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#breadcrums img {
+    height: 20px;
+    margin-right: 20px;
+}
+
+#breadcrums p {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+#article {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#article h1 {
+    margin-bottom: 50px;
+    font-size: 60px !important;
+}
+
+#article img {
+    max-width: 700px;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
